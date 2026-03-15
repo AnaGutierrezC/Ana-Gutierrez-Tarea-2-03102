@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: #080F09;
+}
+
+#logotipo-header {
+    margin: auto 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.main-color {
+    background-color: #ede0b2;
+}
+
+nav {
+    align-items: stretch;
+    margin: auto 10px;
+    width: 98%;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    margin-right: 10px;
+}
+
+nav ul li {
+    margin: auto 20px;
+}
+
+ul li,
+ul li a {
+
+    text-decoration: none;
+    color: #080F09;
+}
+
+ul {
+
+    list-style: none;
+    color: #080F09;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #080F09;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: cadetblue;
+    justify-content: space-around;
+
+}
+
+footer li a {
+    display: block;
+    /* Hace que todo el espacio sea clicable */
+}
+
+footer nav ul {
+
+    margin: 10px auto;
+}
+
+ul li:hover {
+    background-color: #c2bb9f;
+
+}
+
+
+.btn-principal {
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    font-family: "Inter", sans-serif;
+    color: #080F09;
+    cursor: pointer;
+    background-color: #c2bb9f;
+
+}
+
+.btn-reiniciar {
+    border-radius: 20px;
+    border: none;
+    padding: 10px 10px;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #ae6b3e;
+}
+
+#form-container {
+    margin-bottom: 90px;
+    display: flex;
+    margin: 30px;
+}
+
+.simulador-form {
+    display: inline-block;
+}
+
+fieldset div {
+    margin: 20px 30px;
+}
+

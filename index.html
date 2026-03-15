@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido al gimnasio Gold Gym</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <header class="flex main-color">
+            <nav class="flex space-between">
+                <div id="logotipo-header" class="flex space-between">
+                    <h1><a href="index.html">Gold Gym</a></h1>
+                </div>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Programas</a></li>
+                    <li><a href="#">Membresías</a></li>
+                    <li><a href="#">Transformaciones</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <div class="flex">
+                    <button class="btn-principal">Iniciar sesión
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>¡Bienvenido a Gold Gym!</h1>
+            <h2>Formulario para registro</h2>
+            <section id="form-container" class="space-between simulador-form">
+                <form id="form-simulador" onsubmit="">
+                    <section id="formulario-simulador">
+                        <fieldset class="space-between">
+                            <h3>¡Regístrese con nosotros para obtner beneficios!</h3>
+
+                            <div> <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Indique su nombre">
+                            </div>
+                            <div><label for="apellido">Apellido:</label>
+                                <input type="text" id="apellido" name="apellido" placeholder="Indique sus apellidos"
+                                    required>
+                            </div>
+                            <div> <label for="numero">Número de teléfono:</label>
+                                <input type="number" id="numero" name="numero"
+                                    placeholder="Indique su número de teléfono" required>
+                            </div>
+                            <div> <label for="correo">Correo electrónico:</label>
+                                <input type="text" id="correo" name="correo" placeholder="Indique su correo electrónico"
+                                    required>
+                            </div>
+
+                            <div class="flex space-between">
+                                <button id="btn-submit" class="btn-reiniciar" type="reset" onclick="">Reiniciar</button>
+                                <button id="btn-submit" class="btn-principal" type="submit">Simular proyecto</button>
+                            </div>
+                        </fieldset>
+                    </section>
+                    <p><strong>Versión del sitio:</strong> v1.0</p>
+            </section>
+
+        </main>
+        <footer class="main-color flex">
+            <nav class="flex">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Programas</a></li>
+                    <li><a href="#">Membresías</a></li>
+                    <li><a href="#">Transformaciones</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+
+            </nav>
+        </footer>
+</body>
+
+</html>

@@ -22,10 +22,11 @@ body {
 }
 
 nav {
-    align-items: stretch;
+
     margin: auto 10px;
     width: 98%;
     padding: 10px;
+    align-items: center;
 }
 
 nav ul {
@@ -91,6 +92,8 @@ ul li:hover {
     color: #080F09;
     cursor: pointer;
     background-color: #c2bb9f;
+    height: 50px;
+    
 
 }
 
